@@ -21,7 +21,7 @@ The development journey and updates up to the current version:
 | **v0.8** | Theta | **MEGA UPDATE!** <br>• Substituted mock data with real-time feedback from sliders and switches.<br>• Patched a critical bug where `s1`, `s2`, `sw1`, and `sw2` missed global declaration updates.<br>• Fixed an issue preventing the server from receiving POST requests, syncing global memory coordinates, and throwing JSON loading errors.<br>• Enabled dynamic JSON data updates. |
 | **v0.9** | Iota | **HUGE UPDATE!** <br>• Ported code structure to run interchangeably on PC environments and ESP32 hardware.<br>• Integrated Wi-Fi auto-connect logic.<br>• Optimized network loops to stop server freezing while awaiting ping blocks.<br>• Upgraded bare ESP32 sockets into active data streams.<br>• Added explicit parsing for `Content-Length` target headers.<br>• Built-in sensor I/O protocols (FC37 and GUVA).<br>• Applied tracking optimization algorithms for single UV sensors.<br>• Built-in captive portal Wi-Fi network manager.<br>• Added a timer matrix rule: if UV metrics drop below shadow thresholds for 15 minutes, the panel resets to a neutral position.<br>• Added an inactivity tracking loop. |
 | **v1.0** | Kappa |• Refactored the network manager to load custom external HTML template files as the dedicated Wi-Fi captive portal landing screen. |
-| **v1.1** | Lambda | **CURRENT STABLE RELEASE** <br>• • Gave title text and the screen layout colour an overhaul. |
+| **v1.1** | Lambda | **CURRENT STABLE RELEASE** <br>• Gave title text and the screen layout colour a complete overhaul. |
 
 ---
 
