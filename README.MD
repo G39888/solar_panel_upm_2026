@@ -22,7 +22,7 @@ The development journey and updates up to the current version:
 | **v0.9** | Iota | **HUGE UPDATE!** <br>• Ported code structure to run interchangeably on PC environments and ESP32 hardware.<br>• Integrated Wi-Fi auto-connect logic.<br>• Optimized network loops to stop server freezing while awaiting ping blocks.<br>• Upgraded bare ESP32 sockets into active data streams.<br>• Added explicit parsing for `Content-Length` target headers.<br>• Built-in sensor I/O protocols (FC37 and GUVA).<br>• Applied tracking optimization algorithms for single UV sensors.<br>• Built-in captive portal Wi-Fi network manager.<br>• Added a timer matrix rule: if UV metrics drop below shadow thresholds for 15 minutes, the panel resets to a neutral position.<br>• Added an inactivity tracking loop. |
 | **v1.0** | Kappa |• Refactored the network manager to load custom external HTML template files as the dedicated Wi-Fi captive portal landing screen. |
 | **v1.1** | Lambda |• Gave title text and the screen layout colour a complete overhaul. |
-| **v1.2** | Mu | **HUGE UPDATE!** <br>• Added custom FS for ESP32 called NVVFS [Non Volatile Virtual File System] <br>• Added 5 new files, boot.py, .backup, nvvfs.py, sys_state.json and wifi_config.json. |
+| **v1.2** | Mu | **HUGE UPDATE!** <br>• Added custom FS for ESP32 called NVVFS [Non Volatile Virtual File System] <br>• Added 6 new files, boot.py, .backup, nvvfs.py, sys_state.json, wifi_config.json and portal.html. |
 
 ---
 
