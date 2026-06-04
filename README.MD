@@ -11,18 +11,19 @@ The development journey and updates up to the current version:
 
 | Version | Codename | Key Updates |
 | :--- | :--- | :--- |
-| **v0.1** | Alpha | • Initial application creation. |
-| **v0.2** | Beta | • Baseline testing and minor stabilization. |
-| **v0.3** | Gamma | • Resolved JSON parsing errors. |
-| **v0.4** | Delta | • Fixed MIT App Inventor integration errors; added UI decorations. |
-| **v0.5** | Epsilon | • Implemented a confirmation dialog on pressing the back button to exit the app. |
-| **v0.6** | Zeta | **BIG UPDATE!** <br>• Added verification mechanisms.<br>• Persisted IP addresses in `TinyDB` during active app use.<br>• Configured `close_screen_with_start_val` to pull data from `TinyDB` instead of raw textboxes.<br>• Changed the password textbox configuration for easier viewing.<br>• Rounded off slider inputs.<br>• Made verification codes global via `self.class.variable`. |
-| **v0.7** | Ena | **BIG UPDATE!** <br>• Updated version label metrics.<br>• Fixed minor bugs.<br>• Dynamically hides Servo X/Y labels and sliders if the manual control switch is toggled off.<br>• Upgraded server compatibility to run natively on the ESP32-WROOM. |
-| **v0.8** | Theta | **MEGA UPDATE!** <br>• Substituted mock data with real-time feedback from sliders and switches.<br>• Patched a critical bug where `s1`, `s2`, `sw1`, and `sw2` missed global declaration updates.<br>• Fixed an issue preventing the server from receiving POST requests, syncing global memory coordinates, and throwing JSON loading errors.<br>• Enabled dynamic JSON data updates. |
-| **v0.9** | Iota | **HUGE UPDATE!** <br>• Ported code structure to run interchangeably on PC environments and ESP32 hardware.<br>• Integrated Wi-Fi auto-connect logic.<br>• Optimized network loops to stop server freezing while awaiting ping blocks.<br>• Upgraded bare ESP32 sockets into active data streams.<br>• Added explicit parsing for `Content-Length` target headers.<br>• Built-in sensor I/O protocols (FC37 and GUVA).<br>• Applied tracking optimization algorithms for single UV sensors.<br>• Built-in captive portal Wi-Fi network manager.<br>• Added a timer matrix rule: if UV metrics drop below shadow thresholds for 15 minutes, the panel resets to a neutral position.<br>• Added an inactivity tracking loop. |
-| **v1.0** | Kappa |• Refactored the network manager to load custom external HTML template files as the dedicated Wi-Fi captive portal landing screen. |
-| **v1.1** | Lambda |• Gave title text and the screen layout colour a complete overhaul. |
-| **v1.2** | Mu | **HUGE UPDATE!** <br>• Added custom FS for ESP32 called NVVFS [Non Volatile Virtual File System] <br>• Added 6 new files, boot.py, .backup, nvvfs.py, sys_state.json, wifi_config.json and portal.html. |
+| **v1.0.0** | Alpha | • Initial application creation. |
+| **v1.0.1** | Beta | • Baseline testing and minor stabilization. |
+| **v1.0.2** | Gamma | • Resolved JSON parsing errors. |
+| **v1.0.3** | Delta | • Fixed MIT App Inventor integration errors; added UI decorations. |
+| **v1.0.4** | Epsilon | • Implemented a confirmation dialog on pressing the back button to exit the app. |
+| **v2.0.0** | Zeta | **BIG UPDATE!** <br>• Added verification mechanisms.<br>• Persisted IP addresses in `TinyDB` during active app use.<br>• Configured `close_screen_with_start_val` to pull data from `TinyDB` instead of raw textboxes.<br>• Changed the password textbox configuration for easier viewing.<br>• Rounded off slider inputs.<br>• Made verification codes global via `self.class.variable`. |
+| **v3.0.0** | Ena | **BIG UPDATE!** <br>• Updated version label metrics.<br>• Fixed minor bugs.<br>• Dynamically hides Servo X/Y labels and sliders if the manual control switch is toggled off.<br>• Upgraded server compatibility to run natively on the ESP32-WROOM. |
+| **v4.0.0** | Theta | **MEGA UPDATE!** <br>• Substituted mock data with real-time feedback from sliders and switches.<br>• Patched a critical bug where `s1`, `s2`, `sw1`, and `sw2` missed global declaration updates.<br>• Fixed an issue preventing the server from receiving POST requests, syncing global memory coordinates, and throwing JSON loading errors.<br>• Enabled dynamic JSON data updates. |
+| **v5.0.0** | Iota | **HUGE UPDATE!** <br>• Ported code structure to run interchangeably on PC environments and ESP32 hardware.<br>• Integrated Wi-Fi auto-connect logic.<br>• Optimized network loops to stop server freezing while awaiting ping blocks.<br>• Upgraded bare ESP32 sockets into active data streams.<br>• Added explicit parsing for `Content-Length` target headers.<br>• Built-in sensor I/O protocols (FC37 and GUVA).<br>• Applied tracking optimization algorithms for single UV sensors.<br>• Built-in captive portal Wi-Fi network manager.<br>• Added a timer matrix rule: if UV metrics drop below shadow thresholds for 15 minutes, the panel resets to a neutral position.<br>• Added an inactivity tracking loop. |
+| **v5.1.0** | Kappa |• Refactored the network manager to load custom external HTML template files as the dedicated Wi-Fi captive portal landing screen. |
+| **v5.2.0** | Lambda |• Gave title text and the screen layout colour a complete overhaul. |
+| **v6.0.0** | Mu | **HUGE UPDATE!** <br>• Added custom FS for ESP32 called NVVFS [Non Volatile Virtual File System] <br>• Added 6 new files, boot.py, .backup, nvvfs.py, sys_state.json, wifi_config.json and portal.html. |
+| **v7.0.0** | Nu | • Deprecated the app and now using vercel.app to host index.html file on https://solar-tracker-controller.vercel.app <br> • Using ngrok to create a secure tunnel from the public internet <br> to local server (esp32 when connected to wifi)|
 
 ---
 
